@@ -1,5 +1,5 @@
 // AberBorges CRM — Service Worker para modo offline
-const CACHE = "aberborges-v1";
+const CACHE = "aberborges-v3";
 const ASSETS = ["/", "/index.html", "/src/App.jsx", "/icon-192.png", "/icon-512.png"];
 
 self.addEventListener("install", e => {
