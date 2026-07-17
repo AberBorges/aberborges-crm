@@ -1,10 +1,10 @@
 {
   "name": "aberborges-crm",
   "private": true,
-  "version": "1.0.0",
+  "version: "1.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite",h
     "build": "vite build",
     "preview": "vite preview"
   },
