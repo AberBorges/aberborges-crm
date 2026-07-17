@@ -4335,3 +4335,5 @@ const S = {
   ghostBtn:{background:"transparent",color:"#64748b",border:`1px solid ${BORDER}`,borderRadius:10,padding:"9px 14px",fontWeight:600,fontSize:13,cursor:"pointer"},
   btnAdd:{background:"#0d2b22",color:"#25d366",border:"1px solid #128c7e55",borderRadius:10,padding:"10px 14px",fontWeight:700,fontSize:13,cursor:"pointer"},
 };
+
+       // build trigger v5
