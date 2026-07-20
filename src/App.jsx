@@ -1,6 +1,10 @@
 import { useState, useEffect, useRef } from "react";
 import { supabase } from './supabase.js';
 
+// LS helpers - nivel modulo para evitar tree-shaking
+const AB_LS_KEY_C='ab_clientes',AB_LS_KEY_A='ab_agenda';
+const abLsSave=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}
+const abLsLoad=(k)=>{try{const d=localStorage.getItem(k);return d?JSON.parse(d):null;}catch(e){return null;}}
 /* ═══════════════════════════════════════════════════════════
    AberBorges CRM — Sistema de gestión de obras
    Aberturas Borges · con Planilla de Medición integrada
